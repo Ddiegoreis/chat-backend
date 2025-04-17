@@ -1,67 +1,67 @@
-# Chat Application (WebSocket)
+# Aplicativo de Chat (WebSocket)
 
-This is a simple chat application built with React and WebSocket. Users can connect to a WebSocket server, send and receive messages in real-time, and see a list of available users to chat with.
+Este é um aplicativo de chat simples construído com React e WebSocket. Os usuários podem se conectar a um servidor WebSocket, enviar e receber mensagens em tempo real e ver uma lista de usuários disponíveis para conversar.
 
-## Features
+## Funcionalidades
 
-- User authentication with a username.
-- Real-time messaging using WebSocket.
-- Display of available users for conversation.
-- User-friendly interface with message history.
+- Autenticação de usuário com um nome de usuário.
+- Mensagens em tempo real usando WebSocket.
+- Exibição de usuários disponíveis para conversa.
+- Interface amigável com histórico de mensagens.
 
-## Technologies Used
+## Tecnologias Utilizadas
 
 - React
 - WebSocket
 - HTML/CSS
 - JavaScript/TypeScript
 
-## Installation
+## Instalação
 
-1. **Clone the repository:**
+1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/yourusername/chat-frontend.git
+   git clone https://github.com/seuusuario/chat-frontend.git
    cd chat-frontend
    ```
 
-2. **Install dependencies:**
+2. **Instale as dependências:**
 
-   Make sure you have Node.js installed. Then run:
+   Certifique-se de que você tenha o Node.js instalado. Em seguida, execute:
 
    ```bash
    npm install
    ```
 
-3. **Run the application:**
+3. **Execute o aplicativo:**
 
    ```bash
    npm start
    ```
 
-   The application will be available at `http://localhost:3000`.
+   O aplicativo estará disponível em `http://localhost:3000`.
 
-## Usage
+## Uso
 
-1. Open the application in your web browser.
-2. Enter your username in the input field and click "Conectar" to connect to the WebSocket server.
-3. Once connected, you will see a list of available users. Click on a user to set them as the recipient.
-4. Type your message in the text area and press "Enviar" or hit "Enter" to send the message.
-5. Click the logout icon to disconnect from the chat.
+1. Abra o aplicativo em seu navegador.
+2. Digite seu nome de usuário no campo de entrada e clique em "Conectar" para se conectar ao servidor WebSocket.
+3. Uma vez conectado, você verá uma lista de usuários disponíveis. Clique em um usuário para defini-lo como destinatário.
+4. Digite sua mensagem na área de texto e pressione "Enviar" ou pressione "Enter" para enviar a mensagem.
+5. Clique no ícone de logout para desconectar do chat.
 
-## WebSocket Server
+## Servidor WebSocket
 
-This application requires a WebSocket server to function. You can set up a simple WebSocket server using Node.js or any other backend technology of your choice. Ensure that the server handles user connections and broadcasts messages to connected clients.
+Este aplicativo requer um servidor WebSocket para funcionar. Você pode configurar um servidor WebSocket simples usando Node.js ou qualquer outra tecnologia de backend de sua escolha. Certifique-se de que o servidor gerencie as conexões de usuários e transmita mensagens para os clientes conectados.
 
-## Contributing
+## Contribuições
 
-Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+Contribuições são bem-vindas! Se você tiver sugestões para melhorias ou novos recursos, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## License
+## Licença
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Este projeto é licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Acknowledgments
+## Agradecimentos
 
-- Thanks to the contributors of the libraries and frameworks used in this project.
-- Special thanks to the open-source community for their support and resources.
+- Agradecimentos aos contribuidores das bibliotecas e frameworks utilizados neste projeto.
+- Agradecimentos especiais à comunidade de código aberto pelo seu apoio e recursos.
