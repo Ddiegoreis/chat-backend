@@ -1,0 +1,5 @@
+import React, { useRef } from 'react';
+
+const socket = useRef<WebSocket | null>(null);
+
+// Rest of the component code... 
